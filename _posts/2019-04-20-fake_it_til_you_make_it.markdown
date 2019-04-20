@@ -8,9 +8,9 @@ permalink:  fake_it_til_you_make_it
 
 As I started out coding my first project, the CLI Gem Scraper, there were many thoughts running through my head….
 
-              1. How will my CLI class work…. Will the user have to type yes or no, or will I simply bring in the movie list for them with my first method?
+             1. How will my CLI class work…. Will the user have to type yes or no, or will I simply bring in the movie list for them with my first method?
               
-              2. What will my Movie class store? Will I initialize with just a movie title and movie url, or should I include the movie rating also?  Will the user even need to use the url, or can I scrape all of the data that they will need? 
+             2. What will my Movie class store? Will I initialize with just a movie title and movie url, or should I include the movie rating also?  Will the user even need to use the url, or can I scrape all of the data that they will need? 
               
              3. Will I need a scraper class?  What will I name my methods in my scraper class?
              
