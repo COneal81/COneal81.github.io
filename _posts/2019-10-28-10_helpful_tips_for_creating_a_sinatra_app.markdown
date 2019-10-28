@@ -8,7 +8,7 @@ permalink:  10_helpful_tips_for_creating_a_sinatra_app
 
 As I was creating my Sinatra project, I came up with some helpful tips for others creating a Sinatra app.  
 
-###**1. Ruby gem Corneal**
+**1. Ruby gem Corneal**
        a. Use the Ruby gem Corneal to start your Sinatra App.  Corneal is a Sinatra app generator that will load all of your routes, models, and views for you.  
        b. In your terminal, run gem install corneal
        c. To generate your app, run corneal new APP-NAME
@@ -29,13 +29,13 @@ When I used the corneal app, I realized how much time I just saved.  It generate
 
 
 **4. Navigation Bar**
-       a. As I was building my project, I quickly realized that I needed a navigation bar.  Technically I could put a link on each page, but this would be cumbersome and I would be breaking the rule of DRY (Don’t Repeat Yourself).  Instead, I placed a navigation bar in the views/ layout file, above the yield, in a div class
+       a. As I was building my project, I quickly realized that I needed a navigation bar.  Technically I could put a link on each page, but this would be cumbersome and I would be breaking the rule of DRY (Don’t Repeat Yourself).  Instead, I placed a navigation bar in the views/ layout file, above the yield, in a div class.  
 This will help when testing your app in shotgun.
 
 
 **5. Tux**
 Use tux to help with relating your objects and checking attributes.
-To exit tux, type exit  
+To exit tux, type exit.  
 
 
 **6. Binding.Pry**
@@ -55,7 +55,7 @@ ex.) <%binding.pry%>
                i. To ensure that fake data is not being persisted to the database.  
                ii. To validate a user signup has a unique email, has a username that is longer than 2 characters, and a password that is between 6 - 20 characters in length and recognizes capitalization.
 							 
-               iii. Link:[ https://guides.rubyonrails.org/active_record_validations.html](http://)
+              [ https://guides.rubyonrails.org/active_record_validations.html](http://)
 
 
 **8. Take one route at a time.  **
@@ -64,11 +64,8 @@ ex.) <%binding.pry%>
 
 
 **9. Forms**
-       a. While creating your form, the <input> id needs to be exactly the same as the label.
-                         <form class="" action="/memories" method="post">
-                            <label for="title"> Title: </label>
-                            <input type="text" id="title" name="title" value="">
-
+       a. While creating your form, the input id needs to be exactly the same as the label.
+                        
 
  **10. Double check your work!**
        a. Test every route and link to make certain that they are working correctly.  
