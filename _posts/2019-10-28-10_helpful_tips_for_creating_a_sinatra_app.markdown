@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "10 Helpful Tips for Creating a Sinatra App"
-date:       2019-10-28 19:22:22 +0000
+date:       2019-10-28 15:22:23 -0400
 permalink:  10_helpful_tips_for_creating_a_sinatra_app
 ---
 
@@ -29,16 +29,7 @@ When I used the corneal app, I realized how much time I just saved.  It generate
 
 
 **4. Navigation Bar**
-       a. As I was building my project, I quickly realized that I needed a navigation bar.  Technically I could put a link on each page, but this would be cumbersome and I would be breaking the rule of DRY (Don’t Repeat Yourself).  Instead, I placed a navigation bar in the views/ layout file, above the yield, in a div class.
-<div class="nav">
-           <% if logged_in?%>
-             <a href="/memories"> Memories </a>
-             <a href="/memories/new"> Create a Memory </a>
-             <a href="/categories"> Categories </a>
-             <a href="/logout"> Log Out </a>
-           <% end %>
-        </div>
-
+       a. As I was building my project, I quickly realized that I needed a navigation bar.  Technically I could put a link on each page, but this would be cumbersome and I would be breaking the rule of DRY (Don’t Repeat Yourself).  Instead, I placed a navigation bar in the views/ layout file, above the yield, in a div class
 This will help when testing your app in shotgun.
 
 
@@ -64,7 +55,7 @@ ex.) <%binding.pry%>
                i. To ensure that fake data is not being persisted to the database.  
                ii. To validate a user signup has a unique email, has a username that is longer than 2 characters, and a password that is between 6 - 20 characters in length and recognizes capitalization.
 							 
-               iii. Link: https://guides.rubyonrails.org/active_record_validations.html
+               iii. Link:[ https://guides.rubyonrails.org/active_record_validations.html](http://)
 
 
 **8. Take one route at a time.  **
