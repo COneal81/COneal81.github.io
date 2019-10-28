@@ -58,7 +58,7 @@ ex.) <%binding.pry%>
               [ https://guides.rubyonrails.org/active_record_validations.html](http://)
 
 
-**8. Take one route at a time.  **
+**8. Take one route at a time.**
        a. Routes can be confusing.  By taking one route at a time, you are able to sta focused on what that specific route is doing and where it is going.
 			 b. Check that each route is working before continuing on.
 
