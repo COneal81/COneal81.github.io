@@ -8,7 +8,7 @@ permalink:  10_helpful_tips_for_creating_a_sinatra_app
 
 As I was creating my Sinatra project, I came up with some helpful tips for others creating a Sinatra app.  
 
-**1. Ruby gem Corneal**
+###**1. Ruby gem Corneal**
        a. Use the Ruby gem Corneal to start your Sinatra App.  Corneal is a Sinatra app generator that will load all of your routes, models, and views for you.  
        b. In your terminal, run gem install corneal
        c. To generate your app, run corneal new APP-NAME
