@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Order of Go Rails Application"
-date:       2020-03-14 22:20:25 +0000
+date:       2020-03-14 18:20:26 -0400
 permalink:  order_of_go_rails_application
 ---
 
