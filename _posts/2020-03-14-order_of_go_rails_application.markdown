@@ -9,8 +9,8 @@ When I started my Rails project, I was uncertain as to where to begin. I decided
 
 ## **1. Use draw.io and cleary make a wireframing diagram flow chart for your project**. 
 
-1. Include models, relationships, attributes, and validations 
-2. Reminder: Singular Items: Model, class name, belongs_to :___ Plural Items: controllers, views, has_many :, has_many :, through: :___
+*  Include models, relationships, attributes, and validations 
+*  Reminder: Singular Items: Model, class name, belongs_to :___ Plural Items: controllers, views, has_many :, has_many :, through: :___
 
 ## **2. In VS Code (or any other local environment that you would like to use) type gem install rails in your terminal.**
 ## **3. Run rails new name -T -d postgresql**
