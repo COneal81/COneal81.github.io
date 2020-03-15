@@ -28,7 +28,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 * In cd s in your terminal
 *  run code . in the terminal. This will allow you to see and open your directories and files.
 
-## **## 5. In the terminal, run rails db:create **
+## **5. In the terminal, run rails db:create **
 * This will create your database. 
 *  Note: This is not a command that you have to run with sqlite, but one that you will need to run if you are using Postgresql.
 
@@ -70,7 +70,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 *` //= require jquery `
 *` //= require jquery_ujs`
 
-## **##### ## 9. Add Gems Bcrypt, Pry to gemfile**
+##  **9. Add Gems Bcrypt, Pry to gemfile**
 * Run bundle install
 
 ## **10. Add gem ‘dotenv-rails’, ‘~> 2.1’, ‘>= 2.1.1’**
