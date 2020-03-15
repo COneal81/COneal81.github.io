@@ -14,7 +14,9 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 *  Include models, relationships, attributes, and validations 
 *  Reminder: Singular Items: Model, class name, belongs_to :___ Plural Items: controllers, views, has_many :, has_many :, through: :___
 
+
 ## **2. In VS Code, type gem install rails in your terminal.**
+
 
 ## **3. Run rails new name -T -d postgresql**
 * Ex. rails new pet-app -T -d postgresql 
@@ -23,18 +25,21 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 *  Note:  -T tells it not to include any tests and -d means that you are selecting a specific database 
 *  Postgresql is the database you are selecting
 
+
 ## **4. Run cd name**
 * Ex. cd pet-app 
 * In cd s in your terminal
 *  run code . in the terminal. This will allow you to see and open your directories and files.
 
-## **5. In the terminal, run rails db:create **
+
+## **5. In the terminal, run rails db:create **  
 * This will create your database. 
 *  Note: This is not a command that you have to run with sqlite, but one that you will need to run if you are using Postgresql.
 
 
 ## **6. Run rails s to confirm that you have everything set up correctly.**
 * NOTE: If you are getting an error, check to make sure that you have Postgressl installed and that you have initialized it. (Look for the elephant at the top of your screen on Macs)****
+
 
 ## **7. Create a new repository on github. (on github)**
 * Repository Name: Make sure that the repository names matches what you named your app in your terminal. ex.) pet-app 
@@ -50,6 +55,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 4.  On github quick setup page, use the middle option (…or push an existing repository from the command line), 2nd line 
 5.  In terminal, run git push -u origin master 
 6.  Check repo to make sure everything commited over to github.
+
 
 ## **8. Implement Bootstrap**
 * https://getbootstrap.com 
@@ -70,8 +76,10 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 *` //= require jquery `
 *` //= require jquery_ujs`
 
+
 ##  **9. Add Gems Bcrypt, Pry to gemfile**
 * Run bundle install
+
 
 ## **10. Add gem ‘dotenv-rails’, ‘~> 2.1’, ‘>= 2.1.1’**
 * Run bundle install 
@@ -88,6 +96,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 * Add them to the .env file. 
 * Add middleware in config/initializers/omniauth.rb to point to google oauth 
 * Draw your routes
+
 
 ## **11. Create Models and Migrations**
 * Run rails g resource Repair name:string payment_status:string –no-test-framework
@@ -106,6 +115,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 1. ONLY use the .create method with bcrypt or else it will not accept password and only accept password_digest.
 2. Double check that you have all attributes in the correct order and are set to local variables according to your associations.
 
+
 ## **13. Create Routes**
 * Create routes
 * In your browser, type http://local_host:3000/rails/info/routes to view all of the routes you have created.  You can also type rails routes in your terminal.
@@ -116,13 +126,16 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 * Update validations in model 
 * Repeat this pattern until all crud functions are working
 
+
 ## **15. DRY up your application**
 *  Use before_actions in controllers 
 *  Use partials in views
 *  Any logic that is present in your controllers should be encapsulated as methods in your models.
 
 
-By creating a 'Order of Go', you will have organization to your thoughts and be able to execute your project faster.   I hope this helps you get started building a rails application and decreases the coding timeframe of your project.  Happy coding!!!
+By creating a 'Order of Go', you will have organization to your thoughts and be able to execute your project faster.   I hope this helps you get started building a rails application and decreases the coding timeframe of your project.  
+
+Most of all... Have fun coding!!!
 
 
 
