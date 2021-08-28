@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Redux  Lifecycle"
-date:       2020-08-17 21:43:50 +0000
+date:       2020-08-17 17:43:51 -0400
 permalink:  redux_lifecycle
 ---
 
