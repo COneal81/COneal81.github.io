@@ -17,7 +17,7 @@ As I started out coding my first project, the CLI Gem Scraper, there were many t
              4. What data will I scrape?  The movie title, rating, genre, and description?  Is that enough data for my users, or am I missing a very important detail that they will want?.......
 						 
 						 
-And the lists kept running through my head as fast as lightning bolts! As one thought would leave, another would enter.  In order to slow these thoughts down, I decided to start out by coding fake data.  
+The lists kept running through my head as fast as lightning bolts!  As one thought would leave, another would enter.  In order to slow these thoughts down, I decided to start out by coding fake data.  
 	
 I wrote down some thoughts of how I would like my user to interact with the CLI and what I wanted to scrape.  After that, I started out in my CLI class with making fake data.  
 
@@ -28,7 +28,7 @@ Initially, I made a case statement in the CLI class that was lengthy, but it ent
 Time for real data!
 Now that I had the gem working with fake data, I decided it was time to scrape for real data.  As I would find  the css selectors, I would replace the fake data with the css selectors which contained the real data.  All along, I was testing that my code was still working.  Then I created a  Scraper class and moved the scrape methods from the Movie class and into the Scraper class.  Again, I kept checking my code to see that it was still working.
 
-By using fake data in the beginning, it allowed my to build the structure of my code in the correct order.  Once the structure was standing tall, I was able to convert the fake data to real data.  
+By using fake data in the beginning, it allowed me to build the structure of my code in the correct order.  Once the structure was standing tall, I was able to convert the fake data into real data.  
 
-For me, coding is fun!  It lets my imagination run wild with ideas of ways to better the web.  I may not always know how to get the code that I want in the beginning, but I can fake the data until I make it real!
+For me, coding is fun!  It lets my imagination run wild with ideas and ways to better the web.  I may not always know how to get the code that I want in the beginning, but I can fake the data until I make it real!
 
