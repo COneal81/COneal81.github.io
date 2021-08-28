@@ -5,9 +5,9 @@ date:       2020-03-14 18:20:26 -0400
 permalink:  order_of_go_rails_application
 ---
 
-Like any prject you build, whether it is a house or a web application, you need to have a solid method to your madness.  
+Like any project you build, whether it is a house or a web application, you need to have a solid method to your madness.  
 
-When I started my Rails project, I decided to create an “Order of Go” to help organize my workflow.
+When I started my Rails project, I decided to create a “Order of Go” to help organize my workflow.
 
 ## **1. Use draw.io and cleary make a wireframing diagram flow chart for your project**. 
 
@@ -28,8 +28,8 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 
 ## **4. Run cd name**
 * Ex. cd pet-app 
-* In cd s in your terminal
-*  run code . in the terminal. This will allow you to see and open your directories and files.
+* this will open your terminal
+* run code . in the terminal. This will allow you to see and open your directories and files.*
 
 
 ## **5. In the terminal, run rails db:create**
@@ -42,11 +42,11 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 
 
 ## **7. Create a new repository on github. (on github)**
-* Repository Name: Make sure that the repository names matches what you named your app in your terminal. ex.) pet-app 
+* Repository Name: Make sure that the repository name matches what you named your app in your terminal. ex.) pet-app 
 * Description: Write a short description about the app. This can be changed or updated at a later date.
 *  Choose either public or private. 
 *  Do NOT check initialize with a Readme. A readme was created in rails when you created a new app. 
-*  In termina l, run git init 
+*  In terminal, run git init 
 *  In terminal, run git status 
 *  On github quick setup page, use the middle option (…or push an existing repository from the command line), 1st line (ex. git remote add origin git@github.com:COneal81/property-tracker.git) 
 1. *  In terminal, paste git remote add origin git@github.com:COneal81/property-tracker.git 
@@ -135,7 +135,7 @@ When I started my Rails project, I decided to create an “Order of Go” to hel
 
 By creating a 'Order of Go', you will have organization to your thoughts and be able to execute your project faster.   I hope this helps you get started building a rails application and decreases the coding timeframe of your project.  
 
-Most of all... Have fun coding!!!
+Most of all... Have FUN coding!!!
 
 
 
