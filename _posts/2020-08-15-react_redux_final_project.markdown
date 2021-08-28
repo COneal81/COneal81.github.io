@@ -6,7 +6,7 @@ permalink:  react_redux_final_project
 ---
 
 
-When I started my React/Redux project, I was beyond excited!!!  For my project, I decided to build a invesetment tracker to keep track of the items that I purchase and how much money I spent on fixing up each item.  I also created a method to let me know what my breakeven point is for each individual item.  
+When I started my React/Redux project, I was beyond excited!!!  For my project, I decided to build a invesetment tracker to keep track of the items that I purchased and how much money I spent on fixing up each item.  I also created a method to let me know what my breakeven point is for each individual item.  
 
 To start out, I built a skelaton backend in Rails.  From there, I was on my way to building the frontend with create-react-app.  As I started on the frontend, I decided to take a step back and remind myself the difference between container components, functional components, props and state.   
 
